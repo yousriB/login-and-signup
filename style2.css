@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.6)50%, rgba(0,0,0,0.6)50%),url(image1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    width: 400px;
+    height: 520px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50% );
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+    
+}
+.form h2{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ff7200;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    width:50%; 
+    margin-left: 95px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.form input{
+    width: 250px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    outline: none;
+    text-align: center;
+    transition: 0.5s ease;
+}
+.form input:focus{
+    width: 320px;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    transition: 0.4s ease;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+.btnn a{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #ff7200;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.icons a{   
+    text-decoration: none;
+    color: white;
+}
+.icons ion-icon{
+    color: white;
+    font-size: 25px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.5s ease   ;
+}
+.icons ion-icon:hover{
+    color: #ff7200;
+}
